@@ -7,7 +7,7 @@ Quando('preencho o formulário corretamente') do
     fill_in(name:'email', with: "souumemail001@ig.com")
     fill_in(name:'mobilephone', with: "11988776655")
     fill_in(name:'role', with: "Um cargo")
-    fill_in(name:'cnpj', with: "03.573.863/0001-46") #a aplicação permite apenas números. 
+    fill_in(name:'cnpj', with: "03.573.863/0001-46") #a aplicação permite apenas números. SEMPRE TROCAR O CNPJ para cada teste com sucesso.
     fill_in(name:'password', with: "tenho8dg")
     fill_in(name:'monthly_revenue_company', with: "1000.00") #receita dos últimos 3 meses
     fill_in(name:'amount_deal', with: "10000.00") # valor do empréstimo que gostaria de realizar
