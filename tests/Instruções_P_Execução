@@ -1,0 +1,5 @@
+1 - execução total: bundle exec cucumber
+1.1 - sempre no primeiro teste de sucesso informar um CNPJ novo. Ao longo do teste ele será repetido e testado em outro cenário.
+1.2 Não é admitido CNPJ repetido. (temos cenário específico.)
+2. Nos cenários de teste de sucesso, sempre informar um email diferente. 
+2.2. Há teste de cenário com o e-mail repetido. 
