@@ -13,13 +13,13 @@ Quando('preencho o formulário corretamente') do
     fill_in(name:'amount_deal', with: "10000.00") # valor do empréstimo que gostaria de realizar
     find(class:'el-checkbox__inner').click
     click_on(class:'el-button el-button--primary')
-    sleep(4)
+    sleep(8)
 end
 
 Então('verifico se obtive sucesso') do
     texto=find(class:'title')
     expect(texto.text).to eq 'Cadastro finalizado com sucesso, agora confira seu email'
-    sleep(3)
+    sleep(4)
 end
 
 Então('se recebi o email') do
